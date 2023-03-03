@@ -1,5 +1,17 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import { Hero, Navbar } from "./componennts";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold text-dark">Farm Website</h1>;
+  return (
+    <Router>
+      <div>
+        <div className="mx-auto">
+          <Navbar />
+          <Hero />
+        </div>
+      </div>
+    </Router>
+  );
 };
 
 export default App;
