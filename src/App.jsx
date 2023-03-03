@@ -1,5 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import { Hero, Missions, Navbar } from "./componennts";
+import { Hero, Missions, Navbar, Services } from "./componennts";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
           <Navbar />
           <Hero />
           <Missions />
+          <Services />
         </div>
       </div>
     </Router>

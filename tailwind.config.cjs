@@ -14,6 +14,10 @@ module.exports = {
         dark: "#222222",
         light: "#F2EEE9",
       },
+      backgroundImage: {
+        "gradient-to-b":
+          "linear-gradient(to bottom,rgba(20,20,20,0) 0,rgba(20,20,20,1) 100%);",
+      },
     },
   },
   plugins: [],
