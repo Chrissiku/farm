@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import {
   Discover,
   Hero,
+  Intro,
   Missions,
   Navbar,
   Services,
@@ -19,6 +20,7 @@ const App = () => {
           <Services />
           <Testimonial />
           <Discover />
+          <Intro />
         </div>
       </div>
     </Router>
