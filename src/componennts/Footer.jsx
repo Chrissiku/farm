@@ -91,7 +91,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-3 w-full lg:px-5 px-0 ">
             <h5 className="capitalize text-[1.1rem]">Contact</h5>
             {contacts.map((contact, index) => (
-              <div className="space-x-4">
+              <div className="space-x-4" key={index}>
                 <span className="capitalize text-gray-600">
                   {contact.title} :
                 </span>
