@@ -5,5 +5,15 @@ import Services from "./Services";
 import Testimonial from "./Testimonial";
 import Discover from "./Discover";
 import Intro from "./Intro";
+import Contact from "./Contact";
 
-export { Navbar, Hero, Missions, Services, Testimonial, Discover, Intro };
+export {
+  Navbar,
+  Hero,
+  Missions,
+  Services,
+  Testimonial,
+  Discover,
+  Intro,
+  Contact,
+};

@@ -6,7 +6,7 @@ import Button from "./utils/Button";
 
 const Intro = () => {
   return (
-    <div className="lg:py-20 py-10 w-full mx-auto lg:px-32 md:px-10 px-5 bg-[#F2EEE9]">
+    <div className="lg:py-14 py-10 w-full mx-auto lg:px-32 md:px-10 px-5 bg-[#F2EEE9]">
       <div className="mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10 max-w-[1200px]">
         <div className="w-full rounded-lg overflow-hidden">
           <ReactPlayer
