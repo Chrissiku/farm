@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaEnvelopeOpen,
-  FaGlobe,
-  FaHouseUser,
-  FaPhone,
-} from "react-icons/fa";
+import { FaEnvelopeOpen, FaGlobe, FaHouseUser, FaPhone } from "react-icons/fa";
 import Button from "./utils/Button";
 import Social from "./utils/Social";
 import { Title } from "./utils/Titles";
@@ -36,6 +31,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
           {contactInfo.map((info, index) => (
             <a
+              key={index}
               href={info.url}
               className="block space-y-3 bg-slate-100 hover:bg-slate-200 p-5 rounded-lg"
             >

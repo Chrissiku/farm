@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import {
   Contact,
   Discover,
+  Footer,
   Hero,
   Intro,
   Missions,
@@ -23,6 +24,7 @@ const App = () => {
           <Discover />
           <Intro />
           <Contact />
+          <Footer />
         </div>
       </div>
     </Router>

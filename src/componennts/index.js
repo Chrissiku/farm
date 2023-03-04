@@ -6,6 +6,7 @@ import Testimonial from "./Testimonial";
 import Discover from "./Discover";
 import Intro from "./Intro";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Discover,
   Intro,
   Contact,
+  Footer,
 };
