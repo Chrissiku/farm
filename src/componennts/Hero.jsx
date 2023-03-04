@@ -46,7 +46,7 @@ const Hero = () => {
 
       <svg
         id="wave"
-        className="absolute bg-transparent bottom-0 lg:block hidden "
+        className="absolute bg-transparent bottom-0 lg:block hidden"
         viewBox="0 0 1440 429"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

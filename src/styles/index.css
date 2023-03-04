@@ -6,4 +6,12 @@
   body {
     @apply font-josefin bg-white;
   }
+
+  .swiper-pagination-bullet {
+    @apply bg-[#e68c43] w-4 h-4 border border-black;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-green1 border-4 border-[#f74518];
+  }
 }
